@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Tatyana Suglobova](https://up.htmlacademy.ru/htmlcss/15/user/246103).
-* Наставник: `Неизвестно`.
+* Наставник: [Наталья Налимова] ( https://htmlacademy.ru/profile/tuetfe).
 
 ---
 
