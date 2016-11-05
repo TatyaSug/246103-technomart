@@ -1,24 +1,27 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-size: 17px;
   line-height: 18px;
   font-style: normal;
-  font-family: "Cuprum", sans-serif;
-  width: 1200px;
+  font-family: "Cuprum", Arial, sans-serif;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: none;
-  color: red;
+  background: #ffffff;
 }
-main {
-  width: 940px;
-  margin-left: auto;
-  margin-right: auto;
+.main-container {
+  width: 960px;
+  padding: 0 10px;
+  margin: auto;
 }
+
 h1 {
   font-size: 30px;
   line-height: 30px;
   font-style: normal;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
 
   color: #32425c;
 }
@@ -26,175 +29,43 @@ h2 {
   font-size: 24px;
   line-height: 30px;
   font-style: normal;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
 
   color: #ffffff;
 }
 footer {
-  display: inline-block;
-  width: 1200px;
+  width: 100%;
   background-color: #32425c;
 }
-.top {
-  display: inline-block;
-  width: 940px;
-  margin-left: 130px;
+.header-top {
+  background: #293449;
 }
-.logo-bottom {
+.header-bottom {
+  background: #f1f5f7;
+}
+.header-3-column {
+  width: 960px;
+  padding: 0 10px;
+  margin: auto;
+}
+.main-navigation {
+   width: 960px;
+   padding: 0 10px;
+   margin: auto;
+   background: #32425c;
+}
+.main-information {
 
 }
-.footer-contacts {
-  display: inline;
-  background-color: #586783;
+.service {
+  background-color: #f2f6f8;
+  width: 100%;
 }
-.footer-navigation {
-  display: inline-block;
-  background-color: #1e4898;
-}
-.goods-navigation {
-  display: inline-block;
-  background-color: #1e4898;
+.conteiner-bottom {
+  width: 100%;
+  background-color: #f2f6f8;
 }
 .footer-bottom {
   background-color: #293449;
+  width: 100%;
   }
-  .container-bottom {
-  display: inline-block;
-  width: 940px;
-  margin-left: 130px;
-}
-.rights {
-  float: left;
-  margin-left: 20px;
-}
-.footer-social {
-  float: left;
-  margin-left: 50px;
-}
-.feedback {
-  float: left;
-  margin-left: 100px;
-}
-.footer-copyright {
-  float: right;;
-  margin-right: 100px;
-}
-.main-header {
-  width: 1200px;
-  background: #f1f5f7;
-}
-.header-top {
-  width: 1200px;
-  background: #293449;
-
-}
-.header-3-column {
-  display: inline-block;
-  width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-.internet-shop {
-  float: left;
-  margin-left: 100px;
-}
-.contact {
-  float: left;
-  margin-left: 100px;
-}
-.user-block {
-  float: right;;
-  margin-right: 100px;
-}
-.main-navigation {
-   display: inline-block;
-   width: 940px;
-   margin-left: 130px;
-   background: #32425c;
- }
- .main-show {
-   display: block;
-   background-color: pink;
- }
- .breadcrumbs {
-   display: inline-block;
-   width: 940px;
-   background-color: yellow;
- }
- .content-title {
-   display: block;
-   width: 940px;
-   background-color: #f2f6f8;
- }
- .left-content-column {
-   width: 220px;
-   background-color: yellow;
- }
- .sort {
-   width: 700px;
-   background-color: #f7f3ec;
- }
- .all-goods {
-   width: 700px;
-   background-color: #99845e;
- }
- .product-group {
-   display: inline-block;
-   width: 300px;
-   min-height: 50px;
-   margin: 10px;
-
- }
- .product-group-01 {
-   background-color: #f6b22d;
- }
-.product-group-02 {
-  background-color: #4aafde;
-}
-.product-group-03 {
-  background-color: #cc79d1;
-}
-.product-group-04 {
-  background-color: #85d179;
-}
-.product-group-05 {
-  background-color: #f6b22d;
-}
-.popular-title {
-  display: inline-block;
-  width: 940px;
-  background: #f7f3ec;
-}
-.goods {
-  display: inline-block;
-  width: 940px;
-  background-color: blue;
-
-}
-.good-item {
-}
-.makers {
-  display: inline-block;
-  background-color: blue;
-  width: 940px;
-}
-.service {
-  display: inline-block;
-  background-color: #c6b89f;
-  width: 940px;
-}
-.company-info {
-  display: inline-block;
-  background-color: yellow;
-  width: 940px;
-}
-.page {
-  display: inline-block;
-  background-color: yellow;
-  width: 940px;
-}
-.conteiner-bottom {
-  display: block;
-  background-color: pink;
-}
