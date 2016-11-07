@@ -31,6 +31,10 @@ footer {
   margin-top: 20px;
   width: 100%;
   background-color: #32425c;
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
 }
 ul {
   list-style: none;
@@ -44,12 +48,15 @@ ul {
 .main-container {
   width: 960px;
   margin: auto;;
-  background-color: yellow;
+  background-color: none;
 }
 .header-top {
   width: 100%;
   margin-bottom: 5px;
   background: #293449;
+}
+.header-top a {
+  color: #ffffff;
 }
 .logo-top {
   float: left;
@@ -95,8 +102,21 @@ ul {
 .main-navigation {
   float: left;
    width: 960px;
+   height: 60px;
    background: #32425c;
    margin-bottom: 60px;
+}
+.top-navigation {
+
+}
+.top-navigation li {
+  display: inline;
+ padding: 50 20px;
+    margin-right: 65px;
+}
+.top-navigation a {
+ text-decoration: none;
+  color: #ffffff;
 }
 
 .main-header {
@@ -259,12 +279,33 @@ margin-right: 0;
   float: right;
     width: 600px;
     height: 30px;
+    margin-left: 170px;
   }
+  .footer-menu1 li {
+    display: inline;
+   padding: 50 20px;
+      margin-right: 60px;
+  }
+  .footer-menu1 a {
+     text-decoration: none;
+      color: #ffffff;
+   }
   .goods-navigation {
   float: right;
     width: 600px;
     height: 30px;
+    margin-bottom: 70px;
+
   }
+  .footer-menu2 li {
+    display: inline;
+   padding: 50 20px;
+      margin-right: 60px;
+  }
+   .footer-menu2 a{
+     text-decoration: none;
+      color: #ffd180;
+   }
   .footer-top {
 
    }
