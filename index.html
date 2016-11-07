@@ -7,11 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700" rel="stylesheet">
     <meta charset="utf-8">
     <title>Техномарт</title>
+
   </head>
   <body>
     <header class="main-header">
       <div class="header-top">
-        <div class="main-container">
+        <div class="main-container clearfix">
       <div class="logo-top">
         <a>
           <img src="img/logotip.png" alt="Техномарт">
@@ -24,21 +25,21 @@
       <div class="user-action">
         <ul>
           <li>
-            <a class="user bookmarks" href="#">Закладки:0</a>
+            <a class="user-bookmarks" href="#">Закладки:0</a>
           </li>
           <li>
-            <a class="user basket" href="#">Корзина:0</a>
+            <a class="user-basket" href="#">Корзина:0</a>
           </li>
           <li>
-            <a href="#">Оформить заказ</a>
+            <a class="checkout" href="#">Оформить заказ</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
   <div class="header-bottom">
+    <div class="main-container clearfix">
       <div class="header-3-column">
-        <div class="main-container">
         <div class="header-column">
           <div class="internet-shop">
             <p>Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</p>
@@ -46,7 +47,7 @@
         </div>
         <div class="header-column">
           <div class="contact">
-            <a href="tel:+78125550555">+7(812)555-05-55</a>
+            <a class="tel" href="tel:+78125550555">+7(812)555-05-55</a>
             <p>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</p>
           </div>
         </div>
@@ -56,7 +57,7 @@
             <a class="registration" href="#">Регистрация</a>
           </div>
         </div>
-      <div class="contаiner">
+      </div>
         <nav class="main-navigation">
           <ul>
             <li>
@@ -82,15 +83,12 @@
             </li>
           </ul>
         </nav>
-      </div>
     </div>
-  </div>
 </div>
     </header>
     <main>
-      <div class="main-information">
-      <div class="main-container">
-      <div class="main-show">
+      <div class="main-show ">
+      <div class="main-container clearfix">
         <ul>
           <li>
             <div class="product-group product-group-01">
@@ -152,13 +150,15 @@
           </li>
         </ul>
       </div>
+      <div class="goods">
+        <div class="main-container clearfix">
       <div class="popular-title">
         <h1>популярные товары:</h1>
         <a class="popular-title-btn" href="">все популярные товары</a>
       </div>
-      <ul class="goods">
+      <ul class="goods clearfix">
         <li>
-          <div class="good-item">
+          <div class="good-item1">
             <img src="img/drill3.png" alt="#">
             <div class="good-item-hover">
               <a class="btn-buy" href="#">Купить</a>
@@ -170,7 +170,7 @@
           </div>
         </li>
         <li>
-          <div class="good-item">
+          <div class="good-item2">
             <img src="img/drill2.png" alt="#">
             <div class="good-item-hover">
               <a class="btn-buy" href="#">Купить</a>
@@ -182,7 +182,7 @@
           </div>
         </li>
         <li>
-          <div class="good-item">
+          <div class="good-item3">
             <img src="img/drill1.png" alt="#">
             <div class="good-item-hover">
               <a class="btn-buy" href="#">Купить</a>
@@ -194,7 +194,7 @@
           </div>
         </li>
         <li>
-          <div class="good-item">
+          <div class="good-item4">
             <img src="img/drill2.png" alt="#">
             <div class="good-item-hover">
               <a class="btn-buy" href="#">Купить</a>
@@ -206,6 +206,10 @@
           </div>
         </li>
       </ul>
+    </div>
+  </div>
+    <div class="popular-makers">
+      <div class="main-container">
       <div class="popular-title">
         <h1>популярные производители</h1>
         <a class="popular-title-btn" href="#">Все производители</a>
@@ -221,7 +225,7 @@
           <img src="img/dewalt.png" alt="#">
         </li>
         <li>
-          <img src="img/интерскол.png" alt="#">
+          <img src="img/inter.png" alt="#">
         </li>
         <li>
           <img src="img/hitachi.png" alt="#">
@@ -239,7 +243,7 @@
     </div>
   </div>
       <div class="service">
-        <div class="main-container">
+        <div class="main-container clearfix">
         <div class="service-description">
           <h2 class="service-title">Сервис</h2>
           <p>Хороший интернет-магазин отличается от плохого не только ценами.<br>
@@ -278,7 +282,7 @@
       </div>
     </div>
       <div class="company-info">
-        <div class="main-container">
+        <div class="main-container clearfix">
         <div class="company-about">
           <h2 class="company-title">Компания"Техномарт"</h2>
           <p>Настоящий мужской шопинг начинается здесь!Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
@@ -300,11 +304,10 @@
     </div>
     </main>
     <footer>
-      <div class="main-container">
-      <div class="top">
-        <div>
+      <div class="footer-top">
+      <div class="main-container clearfix">
           <div class="logo-bottom">
-            <a href="index.html">
+            <a>
               <img src="img/logotip.png" alt="Техномарт">
             </a>
           </div>
@@ -312,7 +315,6 @@
             г.Санкт-Петербург,Б.Конюшенная,д.19/8<br>
             +7(812)555-05-55
           </div>
-        </div>
         <nav class="footer-navigation">
           <ul>
             <li>
@@ -350,9 +352,8 @@
         </nav>
       </div>
     </div>
-      <div class="footer-bottom">
-        <div class="main-container">
-        <div class="container-bottom">
+      <div class="footer-bottom clearfix">
+        <div class="main-container clearfix">
           <div class="rights">
             <p>2010-2016 Компания"Техномарт"<br>Все права защищены</p>
           </div>
@@ -372,7 +373,6 @@
           </div>
         </div>
       </div>
-    </div>
     </footer>
   </body>
 </html>
