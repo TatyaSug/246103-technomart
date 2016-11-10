@@ -47,7 +47,7 @@
         </div>
         <div class="header-column">
           <div class="contact">
-            <a class="tel" href="tel:+78125550555">+7(812)555-05-55</a>
+            <a class="phone" href="tel:+78125550555">+7(812)555-05-55</a>
             <p>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</p>
           </div>
         </div>
@@ -88,9 +88,8 @@
     </header>
     <main>
       <div class="main-container clearfix">
-      <div class="main-show ">
-        <ul>
-          <li>
+        <ul class="main-show">
+          <li class="main-show-item">
             <div class="product-group product-group-01">
               <h2>Материалы</h2>
               <a href="#">на любой вкус</a>
@@ -98,67 +97,66 @@
               <b class="label">new</b>
             </div>
           </li>
-          <li>
+          <li class="main-show-item">
             <div class="product-group product-group-02">
               <h2>Инструмент</h2>
               <a href="#">на все случаи жизни</a>
               <img src="img/icon-drill.png" alt="">
             </div>
           </li>
-          <li>
+          <li class="main-show-item">
             <div class="product-group product-group-03">
               <h2>Техника</h2>
               <a href="#">для стройки</a>
               <img src="img/icon-tractor.png" alt="">
             </div>
           </li>
-          <li>
+          <div class="main-show-slider">
+      <li class="main-show-item-big">
+        <div class="slider-product-group">
+          <img src="img/slider1.jpg" alt="">
+          <h2>Перфораторы</h2>
+          <p>настоящие мужские игрушки</p>
+          <a class="btn-catalog" href="#">Открыть каталог</a>
+        </div>
+        <div class="slider-product-group">
+          <img src="img/slider2.jpg" alt="">
+          <h2>Дрели</h2>
+          <p>соседям на радость!</p>
+          <a class="btn-catalog" href="#">Открыть каталог</a>
+        </div>
+          <div class="slide-control">
+            <div class="prev">
+              <a href="#"></a>
+            </div>
+            <div class="next">
+              <a href="#"></a>
+            </div>
+          </div>
+        </li>
+      </div>
+          <li class="main-show-item">
             <div class="product-group product-group-04">
               <h2>Скидка 50%</h2>
               <a href="#">на 350 товаров</a>
               <img src="img/icon-cart.png" alt="">
             </div>
           </li>
-          <li>
+          <li class="main-show-item">
             <div class="product-group product-group-05">
               <h2>Доставка</h2>
               <a href="#">бесплатно</a>
               <img src="img/icon-truck.png" alt="">
             </div>
           </li>
-          <li>
-            <div class="slider-product-group">
-              <img src="img/slider1.jpg" alt="">
-              <h2>Перфораторы</h2>
-              <p>настоящие мужские игрушки</p>
-              <a class="btn-catalog" href="#">Открыть каталог</a>
-            </div>
-            <div class="slider-product-group">
-              <img src="img/slider2.jpg" alt="">
-              <h2>Дрели</h2>
-              <p>соседям на радость!</p>
-              <a class="btn-catalog" href="#">Открыть каталог</a>
-            </div>
-            <div class="slide-control">
-              <div class="prev">
-                <a href="#"></a>
-              </div>
-              <div class="next">
-                <a href="#"></a>
-              </div>
-            </div>
-          </li>
         </ul>
-      </div>
-      <div class="goods">
-        <div class="main-container clearfix">
       <div class="popular-title">
         <h1>популярные товары:</h1>
         <a class="popular-title-btn" href="">все популярные товары</a>
       </div>
-      <ul class="goods clearfix">
-        <li>
-          <div class="good-item1">
+      <ul class="goods-list">
+        <li class="goods-item">
+          <div class="good-block">
             <img src="img/drill3.png" alt="#">
             <div class="good-item-hover">
               <a class="btn-buy" href="#">Купить</a>
@@ -169,8 +167,8 @@
             <a class="btn-price" href="#">25500 р</a>
           </div>
         </li>
-        <li>
-          <div class="good-item2">
+        <li class="goods-item">
+          <div class="good-block">
             <img src="img/drill2.png" alt="#">
             <div class="good-item-hover">
               <a class="btn-buy" href="#">Купить</a>
@@ -181,8 +179,8 @@
             <a class="btn-price" href="#">15500 р</a>
           </div>
         </li>
-        <li>
-          <div class="good-item3">
+        <li class="goods-item">
+          <div class="good-block">
             <img src="img/drill1.png" alt="#">
             <div class="good-item-hover">
               <a class="btn-buy" href="#">Купить</a>
@@ -193,8 +191,8 @@
             <a class="btn-price" href="#">25500 р</a>
           </div>
         </li>
-        <li>
-          <div class="good-item4">
+        <li class="goods-item">
+          <div class="good-block">
             <img src="img/drill2.png" alt="#">
             <div class="good-item-hover">
               <a class="btn-buy" href="#">Купить</a>
@@ -206,44 +204,53 @@
           </div>
         </li>
       </ul>
-    </div>
-  </div>
-    <div class="popular-makers">
-      <div class="main-container">
       <div class="popular-title">
         <h1>популярные производители</h1>
         <a class="popular-title-btn" href="#">Все производители</a>
       </div>
-      <ul class="makers">
-        <li>
-          <img class="maker" src="img/bosch.png" alt="#">
+      <ul class="popular-makers">
+        <li class="maker-list">
+          <div class="maker">
+          <img src="img/bosch.png" alt="#">
+        </div>
         </li>
-        <li>
-          <img class="maker" src="img/makita.png" alt="#">
+        <li class="maker-list">
+          <div class="maker">
+          <img src="img/makita.png" alt="#">
+            </div>
         </li>
-        <li>
-          <img class="maker" src="img/dewalt.png" alt="#">
+        <li class="maker-list">
+          <div class="maker">
+          <img src="img/dewalt.png" alt="#">
+            </div>
         </li>
-        <li>
-          <img class="maker" src="img/inter.png" alt="#">
+        <li class="maker-list">
+          <div class="maker">
+          <img  src="img/inter.png" alt="#">
+            </div>
         </li>
-        <li>
-          <img class="maker" src="img/hitachi.png" alt="#">
+        <li class="maker-list">
+          <div class="maker">
+          <img src="img/hitachi.png" alt="#">
+            </div>
         </li>
-        <li>
-          <img class="maker" src="img/lg.png" alt="#">
+        <li class="maker-list">
+          <div class="maker">
+          <img src="img/lg.png" alt="#">
+            </div>
         </li>
-        <li>
-          <img class="maker" src="img/aeg.png" alt="#">
+        <li class="maker-list">
+          <div class="maker">
+          <img src="img/aeg.png" alt="#">
+            </div>
         </li>
-        <li>
-          <img class="maker" src="img/metabo.png" alt="#">
+        <li class="maker-list">
+          <div class="maker">
+          <img src="img/metabo.png" alt="#">
+        </div>
         </li>
       </ul>
-    </div>
-  </div>
       <div class="service">
-        <div class="main-container clearfix">
         <div class="service-description">
           <h2 class="service-title">Сервис</h2>
           <p>Хороший интернет-магазин отличается от плохого не только ценами.<br>
@@ -279,14 +286,12 @@
             <a class="send-request-btn" href="#">Отправить заявку</a>
           </div>
         </div>
-      </div>
     </div>
       <div class="company-info">
-        <div class="main-container clearfix">
         <div class="company-about">
           <h2 class="company-title">Компания"Техномарт"</h2>
-          <p>Настоящий мужской шопинг начинается здесь!Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-          <p>Мы можем доставить ваш товар в самые отдаленные точки России!Техномартработает со многими транспортными компаниями:</p>
+          <p>Настоящий мужской шопинг начинается здесь!Огромный выбор товаров для ремонта и<br> строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+          <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>Техномартработает со многими транспортными компаниями:</p>
           <ul>
             <li>Деловые линии</li>
             <li>Автотрейдинг</li>
@@ -300,8 +305,8 @@
           <img src="img/map.png" alt="">
           <a class="btn-write" href="#">Заблудились?Напишите нам!</a>
         </div>
-      </div>
     </div>
+  </div>
     </main>
     <footer>
       <div class="footer-top">
