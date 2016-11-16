@@ -12,12 +12,10 @@ body {
   margin-right: auto;
   background: #ffffff;
 }
-
-
 h1 {
   font-size: 30px;
   line-height: 30px;
-  font-style: normal;
+  font-style: normal;;
   font-family: "Cuprum", Arial, sans-serif;
   color: #32425c;
 }
@@ -25,12 +23,14 @@ h2 {
   font-size: 24px;
   line-height: 30px;
   font-style: normal;
+  font-weight: bold;
   font-family: "Cuprum", Arial, sans-serif;
   color: #ffffff;
 }
 footer {
   margin-top: 20px;
   width: 100%;
+  min-height: 300px;
   background-color: #32425c;
   color: #ffffff;
 }
@@ -48,16 +48,15 @@ ul {
 .main-container {
   width: 960px;
   margin: auto;
-  background-color: none;
 }
 .main-header {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .header-top {
   width: 100%;
-  height: 40px;
-  margin-bottom: 5px;
+  min-height: 40px;
   background: #293449;
+
 }
 .header-top a {
   color: #ffffff;
@@ -67,44 +66,55 @@ ul {
 }
 .logo-top {
   display: inline-block;
-	vertical-align: middle;
+  text-align: center;
+  padding: 12px;
   width: 220px;
-  margin-right: 10px;
+  margin-right: 20px;
   background-color: #ee3643;
 }
 .search-block {
-  display: inline-block;;
-  vertical-align: middle;
+  display: inline-block;
   font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
 }
 .user-action {
   display: inline-block;
-  vertical-align: top;
-  font-size: 17px;
+  vertical-align: middle;
+
   }
 .user-action li {
   display: inline;
   }
+  .user-action:last-child {
+    margin-right: 0;
+  }
 .user-action a {
   text-decoration: none;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family: "Cuprum", Arial, sans-serif;
 }
 .user-bookmarks {
   display: inline-block;
-  vertical-align: top;
   text-align: right;
-  width: 130px;
+  width: 110px;
+  margin-right: 10px;
 }
 .user-basket {
   display: inline-block;
-  vertical-align: top;
-  text-align: right;
-  width: 130px;
+  text-align: center;
+  width: 110px;
+  margin-right: 30px;
       }
 .checkout {
   display: inline-block;
-  vertical-align: top;
   width: 150px;
-  text-align: right;
+  min-height: 40px;
+  text-align: center;
+  background-color: #63a63e;
+  padding: 14px;
 }
 .header-bottom {
   background: #f1f5f7;
@@ -114,29 +124,69 @@ ul {
   text-align:left;
   vertical-align: top;
   width: 960px;
-  margin: auto;
+  margin-top: 40px;
 }
 .header-column {
   float: left;
   width: 300px;
   margin-left: 20px;
-  margin-bottom: : 20px;
+
+}
+.internet-shop p {
+  color: #ee4f5b;
+  font-size: 13px;
+  line-height: 18px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Cuprum", Arial, sans-serif;
 }
 .phone {
   display: inline-block;
   width: 270px;
   border: 3px solid white;
+  color: #e9292a;
+  padding: 10px 50px;
+  font-size: 21px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family: "Cuprum", Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+.contact p{
+  color: #32425c;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Cuprum", Arial, sans-serif;
+  padding-bottom: 45px;
 }
 .login {
   display: inline-block;
   width: 120px;
   margin-right: 10px;
+  text-decoration: none;
+  text-align: center;
   background-color: #ffffff;
+  color: #000000;
+  padding: 14px;
+  font-size: 21px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family:"Cuprum", Arial, sans-serif;
 }
 .registration {
   display: inline-block;
   width: 150px;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
   background-color: #ffffff;
+  color: #000000;
+  font-size: 21px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family:"Cuprum", Arial, sans-serif;
 }
 .main-navigation {
   float: left;
@@ -162,18 +212,19 @@ ul {
 .main-show-item,
 .main-show-item-wrapper {
   width: 33.333%;
-  padding: 5px;
+  padding: 0 20px 20px 0;
   display: inline-block;
   vertical-align: top;;
 }
 .main-show-item-block {
-	padding: 5px;
+	padding:;
 }
 .main-show-item-big {
   width: 66.666%;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;;
   min-height: 270px;
+  padding: px;
 }
 .main-show-slider {
   position: relative;
@@ -198,11 +249,26 @@ ul {
   color: #ffffff;
 }
 .product-group h2 {
-	margin-top: 0;
+	padding-top: 25px;
+  margin-left: 23px;
+}
+.product-group a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  width: 135px;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 22px;
+  margin-left: 23px;
+  margin-bottom: 22px;
+  background-color: rgba(229,229,229,0.3);
 }
 .product-group-01 {
   background-color: #f6b22d;
-  background-image: url(img/icon-bucket.png);
+  background-image: url(../img/icon-bucket.png);
   background-position: ;
 }
 .product-group-02 {
@@ -228,8 +294,34 @@ ul {
 .popular-title {
   display: inline-block;
   width: 960px;
+  height: 90px;
   margin-bottom: 20px;
   background-color: #f7f3ec;
+}
+.popular-title h1 {
+  float: left;
+  color: #32425c;
+  margin: 25px;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Cuprum", Arial, sans-serif;
+}
+.popular-title a {
+  float: right;
+  background-color: #e9292a;
+  margin: 25px;
+  padding: 13px 55px;
+  vertical-align: middle;
+  width: 250px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+.popular-title-btn {
+vertical-align: middle;
 }
 .goods-list {
   font-size: 0px;
@@ -251,7 +343,7 @@ ul {
   border: 1px solid #e5e5e5;
 }
 .popular-makers {
-  font-size: 0px;
+  font-size: 0;
   padding: 0;
   margin-bottom: 20px;
 }
@@ -262,11 +354,42 @@ ul {
   margin-bottom: 20px;
 }
 .maker  {
+  display: block;
   width: 220px;
   height: 145px;
-  vertical-align: middle;
-  text-align: center;
   border: 1px solid #e5e5e5;
+}
+.maker1 {
+  background: url("../img/bosch.png") no-repeat;
+  background-position: center;
+}
+.maker2 {
+  background: url("../img/makita.png") no-repeat;
+  background-position: center;
+}
+.maker3 {
+  background: url("../img/dewalt.png") no-repeat;
+  background-position: center;
+}
+.maker4 {
+  background: url("../img/inter.png") no-repeat;
+  background-position: center;
+}
+.maker5 {
+  background: url("../img/hitachi.png") no-repeat;
+  background-position: center;
+}
+.maker6 {
+  background: url("../img/lg.png") no-repeat;
+  background-position: center;
+}
+.maker7 {
+  background: url("../img/aeg.png") no-repeat;
+  background-position: center;
+}
+.maker8 {
+  background: url("../img/metabo.png") no-repeat;
+  background-position: center;
 }
 .maker-list:nth-child(4n+4) {
   margin-right: 0;
@@ -275,16 +398,23 @@ ul {
   background-color: #f2f6f8;
   width: 100%;
   min-height: 530px;
-  margin-bottom: ;
+	border: 1px solid red;
 }
 .service h2 {
   color: #000000;
 }
+
+.service-block {
+	border: 1px solid blue;
+}
 .conditions {
+	display: inline-block;
   width: 240px;
   height: 185px;
   margin: 0;
   padding: 0;
+  vertical-align: middle;
+  border: 1px solid green;
 }
 .conditions a {
   display: block;
@@ -306,27 +436,46 @@ ul {
   background-color: #ffffff;
 }
 .services-frame-list {
+	display: inline-block;
+	width: 700px;
+	min-height: 200px;
+	vertical-align: middle;
   position: relative;
+  border: 1px solid red;
 }
 .services-frame-delivery {
   position: absolute;
+  width: 700px;
+  top: 0;
+  left: 0;
+}
+.services-frame-delivery  img {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 .services-frame-guarantee {
   position: absolute;
+  top: 0;
+  left: 0;
   display: none;
 }
 .services-frame-credit {
   position: absolute;
+  top: 0;
+  left: 0;
   display: none;
 }
 .company-about {
   float: left;
-  width: 525px;
-  height: 370px;
+  width: 540px;
+  min-height: 370px;
   margin-right: 120px;
 }
 .company-info h2 {
   font-size: 30px;
+  font-weight: bold;
   color: #000000;
   font-style: normal;
   font-family: "Cuprum", Arial, sans-serif;
@@ -335,12 +484,48 @@ ul {
   font-size: 13px;
   line-height: 24px;
   font-style: normal;
+  font-weight: normal;
+  font-family: "PTSans", Arial, sans-serif;
+}
+.company-info a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Cuprum", Arial, sans-serif;
+}
+.company-about li {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
   font-family: "Cuprum", Arial, sans-serif;
+padding: 20px 0;
+}
+.btn-more {
+  width: 220px;
+  padding: 14px 40px;
+  background-color: #e9292a;
+
 }
 .company-contacts {
   float: right;
   width: 300px;
-  height: 370px;
+  min-height: 370px;
+}
+.map {
+  width: 300px;
+  min-height: 160px;
+  margin: 40px auto;
+}
+.btn-write {
+
+  padding: 14px 62px;
+  background-color: #e9292a;
+}
+.footer-top {
+
 }
 .logo-bottom {
   float: left;
@@ -348,16 +533,11 @@ ul {
   margin-right: 10px;
   background-color: #ee3643;
 }
-.footer-contacts {
-  clear:both;
-  width: 325px;
-  height: 40px;
-  margin-right: 0;
-}
+
 .footer-navigation {
   float: right;
   width: 600px;
-  height: 30px;
+  min-height: 30px;
   margin-left: 170px;
 }
 .footer-menu1 li {
@@ -365,14 +545,17 @@ ul {
   padding: 50 20px;
   margin-right: 60px;
 }
+.footer-menu1:last-child {
+  margin-right: 0;
+}
 .footer-menu1 a {
   text-decoration: none;
   color: #ffffff;
 }
 .goods-navigation {
   float: right;
-  width: 600px;
-  height: 30px;
+  width: 580px;
+  min-height: 30px;
   margin-bottom: 70px;
 }
 .footer-menu2 li {
@@ -380,9 +563,18 @@ ul {
   padding: 50 20px;
   margin-right: 60px;
 }
+.footer-menu2:last-child {
+  margin-right: 0;
+}
 .footer-menu2 a{
   text-decoration: none;
   color: #ffd180;
+}
+.footer-contacts {
+  clear:both;
+  width: 325px;
+  margin-right: 0;
+  margin-top: 30px;
 }
 .footer-bottom {
   display: inline-block;
@@ -431,7 +623,6 @@ ul {
 .breadcrumbs li {
   display: inline;
   margin-right: 35px;
-  background-color: yellow;
 }
 .breadcrumbs a {
   text-decoration: none;
@@ -444,13 +635,14 @@ ul {
   float: left;
   width: 220px;
   margin-right: 10px;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: #f7f3ec;
 }
 .sort {
   float: right;
   width: 700px;
   margin-bottom: 20px;
-  background-color: rgba(255, 0, 0, 0.3);
+
+  background-color: #f7f3ec;
 }
 .list-goods-catalog {
   float: right;
