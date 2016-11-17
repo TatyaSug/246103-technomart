@@ -13,8 +13,8 @@
       <div class="header-top">
         <div class="main-container top-wrapper clearfix">
       <div class="logo-top">
-        <a>
-          <img src="img/logotip.png" alt="Техномарт">
+        <a class="logotip" href="#" alt="Техномарт">
+         <img src="img/logotip.png">
         </a>
       </div>
       <div class="search-block">
@@ -23,13 +23,13 @@
       </div>
       <div class="user-action">
         <ul>
-          <li>
+          <li class="user-bookmarks-btn">
             <a class="user-bookmarks" href="#">Закладки:0</a>
           </li>
-          <li>
+          <li class="user-basket-btn">
             <a class="user-basket" href="#">Корзина:0</a>
           </li>
-          <li>
+          <li class="checkout-btn">
             <a class="checkout" href="#">Оформить заказ</a>
           </li>
         </ul>
@@ -52,8 +52,12 @@
           </div>
           <div class="header-column">
             <div class="user-block">
+              <div class="login-btn">
               <a class="login" href="#">Войти</a>
+            </div>
+            <div class="registration-btn">
               <a class="registration" href="#">Регистрация</a>
+            </div>
             </div>
           </div>
         </div>
@@ -102,18 +106,22 @@
           </li>
         </ul>
         <div class="content-title">
-      <div class="main-container clearfix">
       <h1>Перфораторы</h1>
-    </div>
   </div>
       <div class="content">
         <div class="left-content-column">
+          <div class="filter">
+            фильтр:
+          </div>
           <form class="form" action="https://echo.htmlacademy.ru" method="post">
-            <fieldset class="price">
+            <fieldset class="price-block">
               <legend>
                 Цена
               </legend>
-              <div></div>
+              <div class="price">
+                <div class="price-min">0</div>
+                <div class="price-max">30000</div>
+              </div>
             </fieldset>
             <fieldset class="makers-column">
               <legend>
@@ -121,24 +129,23 @@
               </legend>
               <ul>
                 <li>
-                  <label for="bosch">Bosch</label>
                   <input type="checkbox" name="bosch" id="bosch" checked>
+                  <label for="bosch">Bosch</label>
                 </li>
                 <li>
-                  <label for="interskol">Интерскол</label>
                   <input type="checkbox" name="interskol" id="interskol">
+                  <label for="interskol">Интерскол</label>
                 </li>
                 <li>
-                  <label for="makita">Makita</label>
                   <input type="checkbox" name="makita" id="makita" checked>
+                  <label for="makita">Makita</label>
                 </li>
                 <li>
-                  <label for="dewalt">Dewalt</label>
                   <input type="checkbox" name="dewalt" id="dewalt">
+                    <label for="dewalt">Dewalt</label>
                 </li>
-                <li>
-                  <label for="hitachi">Hitachi</label>
                   <input type="checkbox" name="hitachi" id="hitachi">
+                    <label for="hitachi">Hitachi</label>
                 </li>
               </ul>
             </fieldset>
@@ -148,23 +155,24 @@
               </legend>
               <ul>
                 <li>
-                  <label for="accumulator">Аккумуляторные</label>
                   <input type="radio" name="battery" id="accumulator" checked>
+                      <label for="accumulator">Аккумуляторные</label>
                 </li>
                 <li>
-                  <label for="net">Сетевые</label>
                   <input type="radio" name="battery" id="net">
+                  <label for="net">Сетевые</label>
                 </li>
               </ul>
             </fieldset>
             <button class="btn" type="submit">Показать</button>
           </form>
         </div>
+        <div class="right-content-column">
           <div class="sort">
             <div class="sort-header">
               Сортировка:
             </div>
-            <ul>
+            <ul class="sort-list">
               <li>
                 <a href="#">по цене</a>
               </li>
@@ -174,13 +182,11 @@
               <li>
                 <a href="#">по функционалу</a>
               </li>
-            </ul>
-            <ul>
               <li>
-                <a href="#">Сверху вниз</a>
+                <a href="#">вн</a>
               </li>
               <li>
-                <a href="#">Снизу вверх</a>
+                <a href="#">вв</a>
               </li>
             </ul>
           </div>
@@ -297,42 +303,46 @@
             </ul>
           </div>
           <div class="page">
-            <div class="main-container clearfix">
               <ul class="all-btn-page">
-              <li class="btn-page">
+              <li class="active">
                 <a href="#">1</a>
               </li>
-              <li class="btn-page">
+              <li>
                 <a href="#">2</a>
               </li>
-              <li class="btn-page">
+              <li>
                 <a href="#">3</a>
               </li>
-              <li class="btn-next">
+              <li>
                 <a href="#">Следующая</a>
               </li>
             </ul>
-          </div>
         </div>
       </div>
+    </div>
+  </div>
       <div class="container-bottom">
+        <div class="main-container">
         <h2 class="bottom-title">Пара слов о перфораторах</h2>
-        <p>Перфоратор-универсальный строительный элемент.Предназначен для сверления и долбления отверстий в кирпиче,бетоне и камне.<br>Существуют электромеханические и пневматические перфораторы.Современные модели могут выполнять функции дрели,шуруповерта и отбойного молотка.В ассортиментном ряду есть выбор"трехрежимников":в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+        <p>Перфоратор - универсальный строительный элемент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
     </div>
   </div>
     </main>
     <footer>
       <div class="footer-top">
       <div class="main-container clearfix">
+        <div class="footer-top-left">
           <div class="logo-bottom">
             <a>
               <img src="img/logotip.png" alt="Техномарт">
             </a>
           </div>
           <div class="footer-contacts">
-            г.Санкт-Петербург,Б.Конюшенная,д.19/8<br>
-            +7(812)555-05-55
+            <p>г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            +7 (812) 555-05-55</p>
           </div>
+        </div>
+        <div class="footer-top-right">
         <nav class="footer-navigation">
           <ul class="footer-menu1">
             <li>
@@ -370,23 +380,26 @@
         </nav>
       </div>
     </div>
+    </div>
       <div class="footer-bottom clearfix">
         <div class="main-container clearfix">
           <div class="rights">
             <p>2010-2016 Компания"Техномарт"<br>Все права защищены</p>
           </div>
           <div class="share">
-            <a class="social social-vk" href="#">Вконтакте</a>
-            <a class="social social-fb" href="#">Фейсбук</a>
-            <a class="social social-inst" href="#">Инстаграм</a>
+            <a class="social social-vk" href="#"></a>
+            <a class="social social-fb" href="#"></a>
+            <a class="social social-inst" href="#"></a>
           </div>
           <div class="feedback">
-            <p>Обратная связь:</p>
+            <p>Обратная связь:<br>
             <a class="btn" href="#">mail@htmlacademy.ru</a>
+            </p>
           </div>
           <div class="footer-copyright">
-            <p>Разработано:</p>
+            <p>Разработано:<br>
             <a class="btn" href="https://htmlacademy.ru">Html Academy</a>
+            </p>
           </div>
         </div>
       </div>
