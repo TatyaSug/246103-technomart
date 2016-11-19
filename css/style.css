@@ -947,9 +947,9 @@ vertical-align: middle;
 }
 .company-about {
   float: left;
-  width: 540px;
+  width: 550px;
   min-height: 375px;
-  margin-right: 120px;
+  margin-right: 110px;
 }
 .company-title {
   margin: 0;
@@ -969,6 +969,7 @@ vertical-align: middle;
   font-family: "PTSans", Arial, sans-serif;
   margin: 0;
   margin-bottom: 30px;
+
 }
 .company-about p:last-child {
   margin-bottom: 25px;
@@ -1454,7 +1455,7 @@ input[type="radio"]:checked + label:hover::after {
   height: 25px;
   background-position: -55px -98px;
 }
-.btn {
+.btn-form {
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
