@@ -18,18 +18,18 @@
         </a>
       </div>
       <div class="search-block">
-        <label for="search">Поиск</label>
+        <label for="search"></label>
       <input type="search" id="search" name="search" placeholder="Поиск:">
       </div>
       <div class="user-action">
         <ul>
-          <li class="user-bookmarks-btn">
-            <a class="user-bookmarks" href="#">Закладки:0</a>
+          <li>
+            <a class="user-link user-bookmarks" href="#">Закладки:0</a>
           </li>
-          <li class="user-basket-btn">
-            <a class="user-basket" href="#">Корзина:0</a>
+          <li>
+            <a class="user-link user-basket" href="#">Корзина:0</a>
           </li>
-          <li class="checkout-btn">
+          <li>
             <a class="checkout" href="#">Оформить заказ</a>
           </li>
         </ul>
@@ -92,8 +92,8 @@
     <main>
         <div class="main-container clearfix">
         <ul class="breadcrumbs">
-          <li class="home">
-            <a href="#">Главная</a>
+          <li>
+            <a  class="home" href="#">Главная</a>
           </li>
           <li>
             <a href="#">Каталог</a>
@@ -108,21 +108,30 @@
         <div class="content-title">
       <h1>Перфораторы</h1>
   </div>
-      <div class="content">
+      <div class="content clearfix">
         <div class="left-content-column">
           <div class="filter">
             фильтр:
           </div>
           <form class="form" action="https://echo.htmlacademy.ru" method="post">
-            <fieldset class="price-block">
-              <legend>
-                Цена
-              </legend>
-              <div class="price">
-                <div class="price-min">0</div>
-                <div class="price-max">30000</div>
+            <div class="price-block">
+              <div class="price-block-title">
+                Цена:
               </div>
-            </fieldset>
+              <div class="range-controls">
+                <div class="scale">
+                          <div class="bar"></div>
+                        </div>
+                        <div class="range-toggle range-toggle-min"></div>
+       <div class="range-toggle range-toggle-max"></div>
+      </div>
+              <div class="price-controls">
+                <label class="min-price"><input type="text" name="min-price" value="0"></label>
+         <label class="max-price"><input type="text" name="max-price" value="30000"></label>
+       </div>
+
+            </div>
+
             <fieldset class="makers-column">
               <legend>
                 Производители:
@@ -173,20 +182,20 @@
               Сортировка:
             </div>
             <ul class="sort-list">
-              <li>
+              <li class="sort-standart sort-standart-price sort-standart-current active">
                 <a href="#">по цене</a>
               </li>
-              <li>
+              <li class="sort-standart sort-standart-type">
                 <a href="#">по типу</a>
               </li>
-              <li>
+              <li class="sort-standart sort-standart-function">
                 <a href="#">по функционалу</a>
               </li>
-              <li>
-                <a href="#">вн</a>
+              <li class="sort-order sort-order-up">
+                <a href="#">up</a>
               </li>
-              <li>
-                <a href="#">вв</a>
+              <li class="sort-order sort-order-down">
+                <a href="#">down</a>
               </li>
             </ul>
           </div>
